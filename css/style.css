@@ -259,3 +259,60 @@ nav{
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 /* Express Franchise */
+.express_franchise{
+    background-color: var(--black);
+    padding: 4rem .5rem;
+}
+.express_card{
+    width: 100%;
+    margin-top: 2.5rem;
+}
+.exp_card{
+    width: 22rem;
+    text-align: center;
+}
+.exp_card img{
+    width: 100%;
+}
+.exp_card span{
+    color: var(--red);
+    letter-spacing: .5rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+.exp_card h2{
+    color: var(--white);
+    line-height: 3rem;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+.exp_card p{
+    color: gray;
+    /* line-height: 2.5rem; */
+    font-size: 1.1rem;
+    padding-top: 1rem;
+}
+.exp_card i{
+    font-size: 1.2rem;
+    margin-right: .3rem;
+}
+.exp_card p a{
+    color: gray;
+    padding-top: 1rem;
+    /* line-height: 2.5rem; */
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.exp_card p i{
+    font-size: 1.2rem;
+    margin-right: .3rem;
+}
+.exp_card .button{
+    text-decoration: none;
+    color: var(--white);
+    border: 2px solid gray;
+    padding: 1.2rem 1.5rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    line-height: 8rem;
+}
