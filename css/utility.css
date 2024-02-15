@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --red: #ed1c24;
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #0f0f0f;
+}
+.flex{
+    display: flex;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.gap{
+    gap: 1rem;
+}
+.in_flex{
+    display: inline-flex;
+}
+.flex_c{
+    flex-direction: column;
+}
+.flex_r{
+    flex-direction: row;
+}
+.a_center{
+    align-items: center;
+}
+.t_center{
+    text-align: center;
+}
+.j_around{
+    justify-content: space-around;
+}
+.j_between{
+    justify-content: space-between;
+}
+.j_evenly{
+    justify-content: space-evenly;
+}
+.j_center{
+    justify-content: center;
+}
+
+/* Salt and pepper font family */
+.salt{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+/* Break points */
+@media (max-width: 1199.98px) { 
+    html{
+        font-size: 100%;
+    }
+ }
+@media (max-width: 992px) { 
+    html{
+        font-size: 90%;
+    }
+    .carousel-slides {
+     
+        height: 500px;
+    }
+    .carousel-slide img {
+        width: 100%;
+        max-height: 500px;
+       min-height: 150px;
+    }
+ }
+@media (max-width: 772px) { 
+    html{
+        font-size: 60%;
+    }
+    .nav_items a{
+        display: none;
+    }
+    .nav_items :nth-child(6){
+        display: inline !important;
+    }
+    .carousel-slides {
+     
+        height: 400px;
+    }
+    .carousel-slide img {
+        width: 100%;
+        max-height: 500px;
+       min-height: 150px;
+    }
+ }
+@media (max-width: 500px) { 
+    html{
+        font-size: 40%;
+    }
+    .carousel-slide img {
+        width: 100%;
+        max-height: 500px;
+       min-height: 150px;
+    }
+    .carousel-slides {
+     
+        height: 200px;
+    }
+ }
