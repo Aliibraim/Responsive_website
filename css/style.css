@@ -352,3 +352,117 @@ nav{
     width: 12rem;
     margin: auto;
 }
+.new_card i{
+    color: var(--red);
+    font-size: 2rem;
+    padding: 18px;
+    border-radius: 100%;
+    background-color: #aba9a9;
+}
+.new_card span{
+    color: var(--red);
+    line-height: 2.5rem;
+}
+.new_card h2{
+    color: var(--black);
+    font-size: 2rem;
+}
+.new_card p{
+    color: var(--black);
+    font-size: 1.5rem;
+}
+/* Opening Soon Franchises */
+/* Specail Feed */
+.special{
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    padding: 3rem 0 5rem 0;
+}
+
+.feed_img img{
+    margin-top: 2rem;
+    width: 14rem;
+}
+/* Specail Feed */
+/* Footer */
+footer{
+    background-color: var(--gray);
+}
+.main_footer{
+    padding: 4rem 2rem;
+}
+.logo{
+    width: 28rem;
+}
+.logo p{
+    font-size: 1.1rem;
+    color: gray;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: gray;
+}
+.site_link{
+    width: 20rem;
+    padding-top: 2rem;
+}
+.site_link h2{
+    color: var(--white);
+}
+.site_link a{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.1rem;
+    line-height: 3rem;
+}
+.contact_us{
+    width: 25rem;
+    padding-top: 2rem;
+}
+.contact_us h2{
+    color: var(--white);
+}
+.contact_us a{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.1rem;
+    line-height: 3rem;
+}
+.contact_us p{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.1rem;
+}
+.follow_us{
+    width: 25rem;
+    padding-top: 1.5rem;
+    padding-left: 2.1rem;
+}
+.follow_us h2{
+    color: var(--white);
+    line-height: 5rem;
+    padding-left: 10px;
+}
+.follow_us i{
+    color: var(--white);
+    background-color: var(--red);
+    border-radius: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    margin-left: 5px;
+    margin-bottom: 2rem;
+}
+.follow_us img{
+    width: 11rem;
+    margin-top: 10px;
+}
+.creat_by{
+    padding: 1.5rem;
+}
+.creat_by p{
+    color: gray;
+    font-size: 1.1rem;
+}
+/* Footer */
