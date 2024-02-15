@@ -316,3 +316,39 @@ nav{
     font-size: 1rem;
     line-height: 8rem;
 }
+.exp_card .button i{
+    font-size: 1.4rem;
+    color: var(--red);
+    padding: .5rem;
+    border-radius: 100%;
+    background-color: var(--white);
+    margin-left: .8rem;
+    text-align: center;
+    transform: rotate(-25deg);
+}
+/* Express Franchise */
+/* Village franchise */
+.village_con{
+    padding: 0 25rem;
+}
+/* Village franchise */
+/* Opening Soon Franchises */
+.open_soon{
+    background-color: var(--black);
+    padding: 4rem 0rem;
+}
+.new_content span{
+    font-size: 1.5rem !important;
+}
+.new_card{
+    width: 23rem;
+    background-color: var(--white); 
+    padding: 2.2rem 0rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2rem;
+}
+.card_con{
+    width: 12rem;
+    margin: auto;
+}
